@@ -8,12 +8,12 @@ class Router
 
     public function addRoute($url, ControllerInterface $controller)
     {
-        $this->controllers[$url] = $controller; 
+        $this->controllers[$url] = $controller;
         return 'ok';
     }
     public function dispatch($url)
-    {   
-        if(isset($this->controllers[$url])){
+    {
+        if (isset($this->controllers[$url])) {
             return $this->controllers[$url];
         }
         return false;
