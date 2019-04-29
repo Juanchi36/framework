@@ -1,6 +1,6 @@
 <?php
 
-require './Controllers/ControllerInterface.php';
+//require './Controllers/ControllerInterface.php';
 
 class Router
 {
