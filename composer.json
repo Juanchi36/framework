@@ -1,0 +1,12 @@
+{
+    "name": "juanma/chachara-framework",
+    "authors": [
+        {
+            "name": "Juanchi36",
+            "email": "juanmartingon@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.1"
+    }
+}
